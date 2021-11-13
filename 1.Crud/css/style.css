@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+.required
+{
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 0;
+}
+
+.required:focus
+{
+	box-shadow: none !important;
+}
+
+
+.welcome-image
+{
+	background-image: url("../image/welcome.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.edit-image
+{
+	background-image: url("../image/pexels-skylar-kang.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.captcha
+{
+	border: none;
+	letter-spacing: 4px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.captcha:focus
+{
+	box-shadow: none !important;
+}
+
+.refresh
+{
+	cursor: pointer;
+}
+
+.fonts{
+	font-family: 'Gloria Hallelujah', cursive;
+}

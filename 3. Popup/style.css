@@ -1,0 +1,69 @@
+h1{
+	font-size: 70px;
+	margin-left: 25%;
+}
+
+#blur-bg{
+	width: 100%;
+	min-height: 100%;
+	background-color: rgb(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#modal{
+	width: 370px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	left: 36%;
+	padding: 30px;
+	box-sizing: border-box;
+	
+	top: -800px;
+}
+
+#modal [type="text"]{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	box-shadow: (0px,0px,4px,blue);
+
+}
+
+#em{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+
+#modal [type="submit"]
+{
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+
+span{
+	position: relative;
+	bottom: 5px;
+	font-weight: bold;
+}
+
+#close{
+	position: relative;
+	left: 300px;
+	bottom: 20px;
+	font-size: 23px;
+	cursor: pointer;
+}
+
+
+
+
+
+
